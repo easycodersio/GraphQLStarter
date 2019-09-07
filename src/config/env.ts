@@ -1,7 +1,9 @@
+import { DEV_ENVIRONMENT } from 'config/const'
 import { IENV } from 'types/env'
 
 const env: IENV = {
-  port: process.env.APPLICATION_PORT || '8080',
+  environment: process.env.APPLICATION_ENVIRONMENT || DEV_ENVIRONMENT,
+  port: Number(process.env.APPLICATION_PORT) || 8080,
 }
 
 export default env

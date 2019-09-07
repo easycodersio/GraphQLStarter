@@ -1,3 +1,4 @@
 export interface IENV {
-  port: string
+  port: number
+  environment: string
 }
