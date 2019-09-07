@@ -14,7 +14,7 @@
   "keywords": [
     "GraphQL"
   ],
-  "author": "Matthew Brimmer",
+  "author": "EasyCoders",
   "license": "MIT",
   "dependencies": {
     "apollo-server-express": "^2.9.3",
